@@ -1,0 +1,15 @@
+{
+  "name": "seleniumteste",
+  "version": "1.0.0",
+  "description": "Selenium projeto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thiago",
+  "license": "MIT",
+  "keywords": [],
+  "dependencies": {
+    "selenium-webdriver": "^4.2.0"
+  }
+}
