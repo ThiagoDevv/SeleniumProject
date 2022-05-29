@@ -4,7 +4,7 @@ async function gallery() {
     await driver.get("https://www.nasa.gov/");
     await driver.findElement(By.name("query")).sendKeys("galaxy", Key.RETURN);
     const butao = await driver.findElement(By.linkText("Images"));
-    butao.click();
+    butao.click(); //clicar
 }
 
 async function missions() {
